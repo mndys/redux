@@ -1,0 +1,74 @@
+{
+    "Menu": {
+      "Burgers": {
+        "Tagline": "Our beef quarter pounders are made from 100% gourmet steak beef",
+        "Subtagline": "Our meals come with a side of fries, a drink and choice of salad",
+        "Addon": "Double up! 2 patties, 2 dips and large fries just £1.99",
+        "Items": {
+          "Beef Burger": {
+            "Price": {
+              "Sole": "2.99",
+              "Meal": "4.49"
+            },
+            "Description": ""
+          },
+          "Cheeseburger": {
+            "Price": {
+              "Sole": "3.49",
+              "Meal": "4.99"
+            },
+            "Description": "Quarter Pounder with Cheese"
+          },
+          "Bacon Cheeseburger": {
+            "Price": {
+              "Sole": "3.99",
+              "Meal": "5.49"
+            },
+            "Description": "Quarter Pounder with Cheese & Bacon"
+          }
+        }
+      },
+      "Deluxe Burgers": {
+        "Tagline": "Our beef quarter pounders are made from 100% gourmet steak beef",
+        "Subtagline": "Our meals come with a side of fries, a drink and choice of salad",
+        "Addon": "",
+        "Items": {
+          "Mighty Burger": {
+            "Price": {
+              "Sole": "4.99",
+              "Meal": "6.49"
+            },
+            "Description": "Quarter Pounder beef patty or a freshly grilled chicken fillet, topped with cheese, fried onions & chorizo"
+          },
+          "Pulled Pork": {
+            "Price": {
+              "Sole": "5.49",
+              "Meal": "6.99"
+            },
+            "Description": "Pulled pork topped with onion rings"
+          },
+          "Chicken All Star": {
+            "Price": {
+              "Sole": "6.49",
+              "Meal": "7.99"
+            },
+            "Description": "2 chicken fillets topped with onion rings and bacon"
+          },
+          "Mexicano": {
+            "Price": {
+              "Sole": "6.49",
+              "Meal": "7.99"
+            },
+            "Description": "Quarter pounder beef patty topped with jalapeños, salsa, sour cream and tortillas"
+          },
+          "Henos Go Ham Burger": {
+            "Price": {
+              "Sole": "6.99",
+              "Meal": "7.99"
+            },
+            "Description": "Two gourmet beef patties topped with cheese, hash browns, Henos' egg patty, fried onions and Go Ham sauce"
+          }
+        }
+      }
+    }
+  }
