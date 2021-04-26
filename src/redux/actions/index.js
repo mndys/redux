@@ -40,9 +40,13 @@ export const subtract2IfEven = () => {
     }
 }
 
-export const showBurger = (burgerNumber) => {
+export const previousBurger = () => {
     return {
-        type: 'burger/showBurger',
-        payload: burgerNumber,
+        type: 'burger/previousBurger',
+    }
+}
+export const nextBurger = () => {
+    return {
+        type: 'burger/nextBurger',
     }
 }

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 import Card from './Components/Card'
 import Counter from './Components/Counter'
 

@@ -1,16 +1,19 @@
 import burgers from '../../data/burgers.json'
-
 const initialState = {
-    burger: burgers.Menu.Burgers.Items.
+    burgerNumber: 0,
 }
 
 export default function burgerReducer(state = initialState, action) {
     switch (action.type) {
-        case 'burger/incremented':
-            return { ...state, page: state.page + 1 }
+        case 'burger/nextBurger':
+            return burgers.length - 1 > state.burgerNumber
+                ? { ...state, burgerNumber: state.burgerNumber + 1 }
+                : { ...state }
 
-        case 'burger/decremented':
-            return { ...state, page: state.page - 1 }
+        case 'burger/previousBurger':
+            return state.burgerNumber > 0
+                ? { ...state, burgerNumber: state.burgerNumber - 1 }
+                : { ...state }
 
         default:
             return state

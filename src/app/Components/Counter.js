@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components/macro'
 import { useDispatch, useSelector } from 'react-redux'
 import {
     add2IfOdd,
